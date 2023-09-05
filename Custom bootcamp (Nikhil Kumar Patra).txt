@@ -1,0 +1,75 @@
+Custom bootcamp
+ 
+NIKHIL KUMAR PATRA SH7B23237 (IDA 29/08/23)
+Day 1
+
+Topics covered:-
+1) Data - Piece of any information
+
+2) Database - Organized collection of data usually controlled by a mangaement system.
+
+3) ER Model - Used to identify entities to be represented in the database
+
+4) Normalization - Minimizing redunduncy from a relation
+(i) 1NF
+(ii) 2NF
+(iii) 3NF
+(iv) 3.5NF
+
+5) De-normalization
+
+6) Case study of ER
+
+7) Case study of normalization
+
+8) Dimension modelling - 
+
+9) Slowly changing dimension - Enable the historic aspect of data in an anlytical system
+(i) SCD 1
+(ii) SCD 2
+(iii) SCD 3
+
+
+Day 2 (30/08/23)
+
+Topics covered:-
+1) Data (Structured, semi-structured, unstructured)
+
+2) Big Data
+
+3) Batch Processing
+
+4) Stream Processing
+
+5) Parallel and distributed processing
+
+6) Data Warehouse
+
+7) Data Lake
+
+8) Data Lakehouse
+
+9) Difference between Authorization and Authentication
+
+10) Cloud Computing (Private, Public, Hybrid) and its benefits
+
+11) CapEx and OpEx
+
+12) Serverless computing
+
+13) Azure Fundamentals (Azure Subscription, ARM, Resource Groups)
+
+Day 3 (31/08/23)
+
+Topics covered
+1) Single Database, elastic pool
+
+2) DDL (Create table, create schema, alter, drop)
+
+3) DML (Update, insert, delete)
+
+4) DCL (Grant/Revoke)
+
+5) Schema
+
+6) Examples and practices for DDL, DML and DCL commands
