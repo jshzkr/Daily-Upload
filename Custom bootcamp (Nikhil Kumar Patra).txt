@@ -4,13 +4,13 @@ NIKHIL KUMAR PATRA SH7B23237 (IDA 29/08/23)
 Day 1
 
 Topics covered:-
-1) Data - Piece of any information
+1) Data - A piece of any information
 
-2) Database - Organized collection of data usually controlled by a mangaement system.
+2) Database - Organized collection of data usually controlled by a management system.
 
 3) ER Model - Used to identify entities to be represented in the database
 
-4) Normalization - Minimizing redunduncy from a relation
+4) Normalization - Minimizing redundancy from a relation
 (i) 1NF
 (ii) 2NF
 (iii) 3NF
@@ -24,7 +24,7 @@ Topics covered:-
 
 8) Dimension modelling - 
 
-9) Slowly changing dimension - Enable the historic aspect of data in an anlytical system
+9) Slowly changing dimension - Enable the historical aspect of data in an analytical system
 (i) SCD 1
 (ii) SCD 2
 (iii) SCD 3
@@ -73,3 +73,4 @@ Topics covered
 5) Schema
 
 6) Examples and practices for DDL, DML and DCL commands
+
