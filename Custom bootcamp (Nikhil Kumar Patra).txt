@@ -1,7 +1,7 @@
 Custom bootcamp
  
-NIKHIL KUMAR PATRA SH7B23237 (IDA 29/08/23)
-Day 1
+NIKHIL KUMAR PATRA SH7B23237 
+Day 1 ((IDA 29/08/23)
 
 Topics covered:-
 1) Data - A piece of any information
