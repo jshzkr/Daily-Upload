@@ -234,32 +234,32 @@ Docker
 Steps to containerize a flask app
 
 app.py
-add requirements.txt file which contains all the libraries
-add Dockerfile without any extension and add instructions in it
-create an image using the command docker build -t app-name 
-to check it use the command docker images
+Add requirements.txt file which contains all the libraries . 
+Add dockerfile without any extension and add instructions in it . 
+Create an image using the command docker build -t app-name  . 
+To check it use the command docker images .
 
 Steps to push to Azure Container Registry
 
-Install Azure CLI using command  curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
-Login in Azure using the command az login -u userName -p password
-Create a Resource Group in Azure using the command az group create --name RG_Shell_IDA --location eastus
-Create an Azure Container Registry using the command az acr create --name cridashell --resource-group RG_Shell_IDA --sku Standard --admin-enabled true
-Login in the Azure Container Registry using the command az acr login --name acrName
-Then enter the username and password (from Azure Container Registry)
-name the container using the command docker tag cridashell/flask-app:latest cridashell.azurecr.io/flask-app:latest
-push the image into ACR using the command docker push cridashell.azurecr.io/flask-app:latest
+Install Azure CLI using command  curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash .
+Login in Azure using the command az login -u userName -p password .
+Create a Resource Group in Azure using the command az group create --name RG_Shell_IDA --location eastus .
+Create an Azure Container Registry using the command az acr create --name cridashell --resource-group RG_Shell_IDA --sku Standard --admin-enabled true .
+Login in the Azure Container Registry using the command az acr login --name acrName .
+Then enter the username and password (from Azure Container Registry) .
+name the container using the command docker tag cridashell/flask-app:latest cridashell.azurecr.io/flask-app:latest .
+push the image into ACR using the command docker push cridashell.azurecr.io/flask-app:latest .
 
 Kubernetes
 
 Steps to deploy image using Kubernetes
 
-Create a folder name kubernetes and add two files service.yaml and deployment.yaml
-add necessary code in both the file
-now run the command kubectl apply -f deployment.yaml and kubectl apply -f service.yaml
-now run the command az aks get-credentials --resource-group RG_Shell_IDA --name K8S_Cluster
-now run the command az aks update -n K8S_Cluster -g RG_Shell_IDA --attach-acr cridashell
-now attach the container port to localhost port using command kubectl port-forward flask-app-deployment-658d6f6d66-djvm5 8000:8000
+Create a folder name kubernetes and add two files service.yaml and deployment.yaml .
+Add necessary code in both the file .
+Run the command kubectl apply -f deployment.yaml and kubectl apply -f service.yaml . 
+Run the command az aks get-credentials --resource-group RG_Shell_IDA --name K8S_Cluster .
+Run the command az aks update -n K8S_Cluster -g RG_Shell_IDA --attach-acr cridashell . 
+Attach the container port to localhost port using command kubectl port-forward flask-app-deployment-658d6f6d66-djvm5 8000:8000 .
 
 Day 22 (29/09/23)
 
